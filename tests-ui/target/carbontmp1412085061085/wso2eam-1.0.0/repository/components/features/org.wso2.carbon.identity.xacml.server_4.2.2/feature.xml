@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.xacml.server" label="Identity XACML Server Feature" provider-name="%providerName" version="4.2.2">
+  <description>This feature contains the core bundles required for Back-end XACML functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="libthrift" unpack="false" version="0.8.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.entitlement" unpack="false" version="4.2.2"/>
+  <plugin id="org.wso2.balana" unpack="false" version="1.0.0.wso2v7"/>
+  <plugin id="slf4j" unpack="false" version="1.5.10.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.thrift.authentication" unpack="false" version="4.2.1"/>
+  <plugin id="org.wso2.carbon.identity.authentication" unpack="false" version="4.2.0"/>
+  <require>
+    <import feature="org.wso2.carbon.claim.mgt.server" match="equivalent" version="4.2.0"/>
+    <import feature="org.wso2.carbon.identity.core.server" match="equivalent" version="4.2.2"/>
+  </require>
+</feature>

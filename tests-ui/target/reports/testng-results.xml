@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite url="am-features-test-suite/testng-results.xml"/>
+  <suite url="am-erver-setup-verifier/testng-results.xml"/>
+</testng-results>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.provisioning.connector.google.server" label="Identity Provisioning Connector Google Server Feature" provider-name="%providerName" version="4.2.0">
+  <description>This feature contains the core bundles required for Google Identity Provisioning Connector</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.identity.provisioning.connector.google" unpack="false" version="4.2.0"/>
+</feature>

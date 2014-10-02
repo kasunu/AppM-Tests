@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.1.5320 (stable) report, generated Tue Sep 30 19:27:10 IST 2014 -->
+
+<report>
+  <stats>
+    <packages value="4"/>
+    <classes value="23"/>
+    <methods value="109"/>
+    <srcfiles value="23"/>
+    <srclines value="854"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="line, %" value="44%  (375.8/854)"/>
+      <coverage type="block, %" value="43%  (1348/3124)"/>
+      <coverage type="method, %" value="63%  (69/109)"/>
+      <coverage type="class, %" value="87%  (20/23)"/>
+
+      <package name="org.wso2.carbon.throttle.core.impl.rolebase">
+        <coverage type="line, %" value="84%  (31/37)"/>
+        <coverage type="block, %" value="91%  (117/129)"/>
+        <coverage type="method, %" value="71%  (10/14)"/>
+        <coverage type="class, %" value="100% (4/4)"/>
+
+        <srcfile name="RoleBaseThrottleConfiguration.java">
+          <coverage type="line, %" value="90%  (18/20)"/>
+          <coverage type="block, %" value="95%  (61/64)"/>
+          <coverage type="method, %" value="100% (5/5)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="RoleBaseThrottleConfiguration">
+            <coverage type="line, %" value="90%  (18/20)"/>
+            <coverage type="block, %" value="95%  (61/64)"/>
+            <coverage type="method, %" value="100% (5/5)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="RoleBaseThrottleConfiguration (): void">
+              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCallerConfiguration (String): CallerConfiguration">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (10/10)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): int">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (2/2)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addCallerConfiguration (CallerConfiguration): void">
+              <coverage type="line, %" value="89%  (8/9)"/>
+              <coverage type="block, %" value="97%  (29/30)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConfigurationKeyOfCaller (String): String">
+              <coverage type="line, %" value="80%  (4/5)"/>
+              <coverage type="block, %" value="86%  (12/14)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RoleBaseCallerConfiguration.java">
+          <coverage type="line, %" value="82%  (9/11)"/>
+          <coverage type="block, %" value="91%  (48/53)"/>
+          <coverage type="method, %" value="60%  (3/5)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="RoleBaseCallerConfiguration">
+            <coverage type="line, %" value="82%  (9/11)"/>
+            <coverage type="block, %" value="91%  (48/53)"/>
+            <coverage type="method, %" value="60%  (3/5)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="RoleBaseCallerConfiguration (): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (8/8)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getRoles (): List">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setID (String): void">
+              <coverage type="line, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (37/37)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getID (): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getType (): int">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RoleBaseCallerContext.java">
+          <coverage type="line, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="67%  (4/6)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="RoleBaseCallerContext">
+            <coverage type="line, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="67%  (4/6)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="RoleBaseCallerContext (String): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): int">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RoleBaseThrottleContext.java">
+          <coverage type="line, %" value="67%  (2/3)"/>
+          <coverage type="block, %" value="67%  (4/6)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="RoleBaseThrottleContext">
+            <coverage type="line, %" value="67%  (2/3)"/>
+            <coverage type="block, %" value="67%  (4/6)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="RoleBaseThrottleContext (ThrottleConfiguration): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getType (): int">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.wso2.carbon.throttle.core.factory">
+        <coverage type="line, %" value="69%  (22/32)"/>
+        <coverage type="block, %" value="66%  (80/122)"/>
+        <coverage type="method, %" value="50%  (4/8)"/>
+        <coverage type="class, %" value="100% (4/4)"/>
+
+        <srcfile name="ThrottleContextFactory.java">
+          <coverage type="line, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="75%  (24/32)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleContextFactory">
+            <coverage type="line, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="75%  (24/32)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="createThrottleContext (int, ThrottleConfiguration): ThrottleContext">
+              <coverage type="line, %" value="86%  (6/7)"/>
+              <coverage type="block, %" value="83%  (24/29)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleContextFactory (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CallerConfigurationFactory.java">
+          <coverage type="line, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="72%  (21/29)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="CallerConfigurationFactory">
+            <coverage type="line, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="72%  (21/29)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="createCallerConfiguration (int): CallerConfiguration">
+              <coverage type="line, %" value="86%  (6/7)"/>
+              <coverage type="block, %" value="81%  (21/26)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="CallerConfigurationFactory (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleConfigurationFactory.java">
+          <coverage type="line, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="72%  (21/29)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleConfigurationFactory">
+            <coverage type="line, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="72%  (21/29)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="createThrottleConfiguration (int): ThrottleConfiguration">
+              <coverage type="line, %" value="86%  (6/7)"/>
+              <coverage type="block, %" value="81%  (21/26)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleConfigurationFactory (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CallerContextFactory.java">
+          <coverage type="line, %" value="50%  (4/8)"/>
+          <coverage type="block, %" value="44%  (14/32)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="CallerContextFactory">
+            <coverage type="line, %" value="50%  (4/8)"/>
+            <coverage type="block, %" value="44%  (14/32)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="createCaller (int, String): CallerContext">
+              <coverage type="line, %" value="57%  (4/7)"/>
+              <coverage type="block, %" value="48%  (14/29)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="CallerContextFactory (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.wso2.uri.template">
+        <coverage type="line, %" value="64%  (9/14)"/>
+        <coverage type="block, %" value="84%  (56/67)"/>
+        <coverage type="method, %" value="40%  (2/5)"/>
+        <coverage type="class, %" value="50%  (1/2)"/>
+
+        <srcfile name="URITemplate.java">
+          <coverage type="line, %" value="90%  (9/10)"/>
+          <coverage type="block, %" value="97%  (56/58)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="URITemplate">
+            <coverage type="line, %" value="90%  (9/10)"/>
+            <coverage type="block, %" value="97%  (56/58)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="URITemplate (String): void">
+              <coverage type="line, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="matches (String, Map): boolean">
+              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (28/28)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="expand (Map): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/2)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="URITemplateException.java">
+          <coverage type="line, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/9)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="class, %" value="0%   (0/1)"/>
+
+          <class name="URITemplateException">
+            <coverage type="line, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/9)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="class, %" value="0%   (0/1)"/>
+
+            <method name="URITemplateException (String): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="URITemplateException (String, Throwable): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.wso2.carbon.throttle.core">
+        <coverage type="line, %" value="41%  (313.8/771)"/>
+        <coverage type="block, %" value="39%  (1095/2806)"/>
+        <coverage type="method, %" value="65%  (53/82)"/>
+        <coverage type="class, %" value="85%  (11/13)"/>
+
+        <srcfile name="Throttle.java">
+          <coverage type="line, %" value="89%  (16/18)"/>
+          <coverage type="block, %" value="88%  (57/65)"/>
+          <coverage type="method, %" value="89%  (8/9)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="Throttle">
+            <coverage type="line, %" value="89%  (16/18)"/>
+            <coverage type="block, %" value="88%  (57/65)"/>
+            <coverage type="method, %" value="89%  (8/9)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="Throttle (): void">
+              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (13/13)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addThrottleConfiguration (String, ThrottleConfiguration): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addThrottleContext (String, ThrottleContext): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (7/7)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getConcurrentAccessController (): ConcurrentAccessController">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getThrottleConfiguration (String): ThrottleConfiguration">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getThrottleContext (String): ThrottleContext">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setConcurrentAccessController (ConcurrentAccessController): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setId (String): void">
+              <coverage type="line, %" value="75%  (3/4)"/>
+              <coverage type="block, %" value="69%  (11/16)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getId (): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AccessInformation.java">
+          <coverage type="line, %" value="88%  (7/8)"/>
+          <coverage type="block, %" value="85%  (17/20)"/>
+          <coverage type="method, %" value="80%  (4/5)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="AccessInformation">
+            <coverage type="line, %" value="88%  (7/8)"/>
+            <coverage type="block, %" value="85%  (17/20)"/>
+            <coverage type="method, %" value="80%  (4/5)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="AccessInformation (): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="isAccessAllowed (): boolean">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setAccessAllowed (boolean): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setFaultReason (String): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getFaultReason (): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleConstants.java">
+          <coverage type="line, %" value="75%  (6/8)"/>
+          <coverage type="block, %" value="93%  (43/46)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleConstants">
+            <coverage type="line, %" value="75%  (6/8)"/>
+            <coverage type="block, %" value="93%  (43/46)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (6/6)"/>
+              <coverage type="block, %" value="100% (43/43)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleConstants (): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleFactory.java">
+          <coverage type="line, %" value="72%  (147.8/205)"/>
+          <coverage type="block, %" value="73%  (473/652)"/>
+          <coverage type="method, %" value="67%  (8/12)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleFactory">
+            <coverage type="line, %" value="72%  (147.8/205)"/>
+            <coverage type="block, %" value="73%  (473/652)"/>
+            <coverage type="method, %" value="67%  (8/12)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="createMediatorThrottle (Policy): Throttle">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="createModuleThrottle (Policy): Throttle">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="createThrottleConfiguration (XmlPrimtiveAssertion, Throttle): ThrottleConfiguration">
+              <coverage type="line, %" value="92%  (23/25)"/>
+              <coverage type="block, %" value="89%  (85/96)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="fillCallerConfiguration (Policy, CallerConfiguration): void">
+              <coverage type="line, %" value="83%  (19/23)"/>
+              <coverage type="block, %" value="85%  (57/67)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="buildThrottle (Policy): Throttle">
+              <coverage type="line, %" value="82%  (54/66)"/>
+              <coverage type="block, %" value="82%  (171/208)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="fillControlConfiguration (Policy, CallerConfiguration): void">
+              <coverage type="line, %" value="62%  (31.8/51)"/>
+              <coverage type="block, %" value="63%  (94/149)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="createThrottle (Policy, QName): Throttle">
+              <coverage type="line, %" value="57%  (17/30)"/>
+              <coverage type="block, %" value="59%  (54/92)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleFactory (): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createOperationThrottle (Policy): Throttle">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="createServiceThrottle (Policy): Throttle">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="handleException (String): void">
+              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleUtil.java">
+          <coverage type="line, %" value="67%  (6/9)"/>
+          <coverage type="block, %" value="55%  (21/38)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleUtil">
+            <coverage type="line, %" value="67%  (6/9)"/>
+            <coverage type="block, %" value="55%  (21/38)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getThrottleCache (): Cache">
+              <coverage type="line, %" value="71%  (5/7)"/>
+              <coverage type="block, %" value="53%  (16/30)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleUtil (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CallerConfiguration.java">
+          <coverage type="line, %" value="62%  (13/21)"/>
+          <coverage type="block, %" value="61%  (30/49)"/>
+          <coverage type="method, %" value="80%  (8/10)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="CallerConfiguration">
+            <coverage type="line, %" value="62%  (13/21)"/>
+            <coverage type="block, %" value="61%  (30/49)"/>
+            <coverage type="method, %" value="80%  (8/10)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="CallerConfiguration (): void">
+              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAccessState (): int">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getMaximumRequestPerUnitTime (): int">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getProhibitTimePeriod (): long">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getUnitTime (): long">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setAccessState (int): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setMaximumRequestPerUnitTime (int): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setUnitTime (long): void">
+              <coverage type="line, %" value="100% (2/2)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="CallerConfiguration (long, int, long, String): void">
+              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/15)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="setProhibitTimePeriod (long): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RoleBasedAccessRateController.java">
+          <coverage type="line, %" value="53%  (31/59)"/>
+          <coverage type="block, %" value="47%  (101/216)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="RoleBasedAccessRateController">
+            <coverage type="line, %" value="53%  (31/59)"/>
+            <coverage type="block, %" value="47%  (101/216)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="RoleBasedAccessRateController (): void">
+              <coverage type="line, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="canAccess (ThrottleContext, String, String): AccessInformation">
+              <coverage type="line, %" value="47%  (25/53)"/>
+              <coverage type="block, %" value="41%  (81/196)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleContext.java">
+          <coverage type="line, %" value="38%  (39/103)"/>
+          <coverage type="block, %" value="38%  (168/448)"/>
+          <coverage type="method, %" value="64%  (9/14)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ThrottleContext">
+            <coverage type="line, %" value="38%  (39/103)"/>
+            <coverage type="block, %" value="38%  (168/448)"/>
+            <coverage type="method, %" value="64%  (9/14)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addCallerContext (CallerContext, String): void">
+              <coverage type="line, %" value="100% (3/3)"/>
+              <coverage type="block, %" value="100% (9/9)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="flushCallerContext (CallerContext, String): void">
+              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (19/19)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getThrottleConfiguration (): ThrottleConfiguration">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ThrottleContext (ThrottleConfiguration): void">
+              <coverage type="line, %" value="89%  (8/9)"/>
+              <coverage type="block, %" value="83%  (25/30)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="setThrottleId (String): void">
+              <coverage type="line, %" value="80%  (4/5)"/>
+              <coverage type="block, %" value="76%  (16/21)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getCallerContext (String): CallerContext">
+              <coverage type="line, %" value="50%  (4/8)"/>
+              <coverage type="block, %" value="46%  (21/46)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addCaller (CallerContext, String): void">
+              <coverage type="line, %" value="42%  (8/19)"/>
+              <coverage type="block, %" value="49%  (42/86)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="processCleanList (long): void">
+              <coverage type="line, %" value="20%  (6/30)"/>
+              <coverage type="block, %" value="22%  (28/129)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="addAndFlushCallerContext (CallerContext, String): void">
+              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/9)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getThrottleId (): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeAndFlushCaller (String): void">
+              <coverage type="line, %" value="0%   (0/6)"/>
+              <coverage type="block, %" value="0%   (0/33)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeCaller (String): void">
+              <coverage type="line, %" value="0%   (0/10)"/>
+              <coverage type="block, %" value="0%   (0/49)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="removeCallerContext (String): void">
+              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="CallerContext.java">
+          <coverage type="line, %" value="36%  (37/103)"/>
+          <coverage type="block, %" value="29%  (148/502)"/>
+          <coverage type="method, %" value="67%  (6/9)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="CallerContext">
+            <coverage type="line, %" value="36%  (37/103)"/>
+            <coverage type="block, %" value="29%  (148/502)"/>
+            <coverage type="method, %" value="67%  (6/9)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getNextTimeWindow (): long">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="initAccess (CallerConfiguration, ThrottleContext, long): void">
+              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="CallerContext (String): void">
+              <coverage type="line, %" value="89%  (8/9)"/>
+              <coverage type="block, %" value="83%  (25/30)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="canAccess (ThrottleContext, CallerConfiguration, long): boolean">
+              <coverage type="line, %" value="58%  (7/12)"/>
+              <coverage type="block, %" value="67%  (39/58)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="canAccessIfUnitTimeNotOver (CallerConfiguration, ThrottleContext, long): boolean">
+              <coverage type="line, %" value="47%  (16/34)"/>
+              <coverage type="block, %" value="32%  (61/190)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="canAccessIfUnitTimeOver (CallerConfiguration, ThrottleContext, long): boolean">
+              <coverage type="line, %" value="0%   (0/22)"/>
+              <coverage type="block, %" value="0%   (0/114)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="cleanUpCallers (CallerConfiguration, ThrottleContext, long): void">
+              <coverage type="line, %" value="0%   (0/19)"/>
+              <coverage type="block, %" value="0%   (0/84)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getID (): String">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ConcurrentAccessController.java">
+          <coverage type="line, %" value="28%  (5/18)"/>
+          <coverage type="block, %" value="33%  (17/52)"/>
+          <coverage type="method, %" value="33%  (2/6)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="ConcurrentAccessController">
+            <coverage type="line, %" value="28%  (5/18)"/>
+            <coverage type="block, %" value="33%  (17/52)"/>
+            <coverage type="method, %" value="33%  (2/6)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="ConcurrentAccessController (int): void">
+              <coverage type="line, %" value="100% (4/4)"/>
+              <coverage type="block, %" value="100% (12/12)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="getAndDecrement (): int">
+              <coverage type="line, %" value="0%   (0/5)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getLimit (): int">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="incrementAndGet (): int">
+              <coverage type="line, %" value="0%   (0/4)"/>
+              <coverage type="block, %" value="0%   (0/10)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="set (int): void">
+              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/8)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="AccessRateController.java">
+          <coverage type="line, %" value="10%  (6/59)"/>
+          <coverage type="block, %" value="9%   (20/221)"/>
+          <coverage type="method, %" value="67%  (2/3)"/>
+          <coverage type="class, %" value="100% (1/1)"/>
+
+          <class name="AccessRateController">
+            <coverage type="line, %" value="10%  (6/59)"/>
+            <coverage type="block, %" value="9%   (20/221)"/>
+            <coverage type="method, %" value="67%  (2/3)"/>
+            <coverage type="class, %" value="100% (1/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (5/5)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="AccessRateController (): void">
+              <coverage type="line, %" value="100% (5/5)"/>
+              <coverage type="block, %" value="100% (15/15)"/>
+              <coverage type="method, %" value="100% (1/1)"/>
+            </method>
+            <method name="canAccess (ThrottleContext, String, int): AccessInformation">
+              <coverage type="line, %" value="0%   (0/53)"/>
+              <coverage type="block, %" value="0%   (0/201)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottleException.java">
+          <coverage type="line, %" value="0%   (0/4)"/>
+          <coverage type="block, %" value="0%   (0/7)"/>
+          <coverage type="method, %" value="0%   (0/2)"/>
+          <coverage type="class, %" value="0%   (0/1)"/>
+
+          <class name="ThrottleException">
+            <coverage type="line, %" value="0%   (0/4)"/>
+            <coverage type="block, %" value="0%   (0/7)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="class, %" value="0%   (0/1)"/>
+
+            <method name="ThrottleException (): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ThrottleException (String): void">
+              <coverage type="line, %" value="0%   (0/2)"/>
+              <coverage type="block, %" value="0%   (0/4)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="ThrottlePolicyProcessor.java">
+          <coverage type="line, %" value="0%   (0/156)"/>
+          <coverage type="block, %" value="0%   (0/490)"/>
+          <coverage type="method, %" value="0%   (0/4)"/>
+          <coverage type="class, %" value="0%   (0/1)"/>
+
+          <class name="ThrottlePolicyProcessor">
+            <coverage type="line, %" value="0%   (0/156)"/>
+            <coverage type="block, %" value="0%   (0/490)"/>
+            <coverage type="method, %" value="0%   (0/4)"/>
+            <coverage type="class, %" value="0%   (0/1)"/>
+
+            <method name="&lt;static initializer&gt;">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/5)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="ThrottlePolicyProcessor (): void">
+              <coverage type="line, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="handleException (String): void">
+              <coverage type="line, %" value="0%   (0/3)"/>
+              <coverage type="block, %" value="0%   (0/17)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+            <method name="processPolicy (Policy): Throttle">
+              <coverage type="line, %" value="0%   (0/151)"/>
+              <coverage type="block, %" value="0%   (0/465)"/>
+              <coverage type="method, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

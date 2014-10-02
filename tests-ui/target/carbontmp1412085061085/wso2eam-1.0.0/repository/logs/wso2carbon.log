@@ -1,0 +1,1458 @@
+TID: [2014-09-30 19:21:06,122]  INFO {org.wso2.carbon.server.extensions.PatchInstaller} -  Patch changes detected  {org.wso2.carbon.server.extensions.PatchInstaller}
+TID: [2014-09-30 19:21:06,310]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Backed up plugins to patch0000 {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [2014-09-30 19:21:07,022]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Patch verification started {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [2014-09-30 19:21:07,264]  INFO {org.wso2.carbon.server.util.PatchUtils.console} -  Patch verification successfully completed without encountering any issues. {org.wso2.carbon.server.util.PatchUtils.console}
+TID: [0] [AM] [2014-09-30 19:21:11,216]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,217]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-36-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/jdk1.6.0/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,218]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : kasun, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [AM] [2014-09-30 19:21:11,266]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  The default keystore (wso2carbon.jks) is currently being used. To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter}
+TID: [0] [AM] [2014-09-30 19:21:11,273]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! {org.wso2.carbon.databridge.agent.thrift.AgentHolder}
+TID: [0] [AM] [2014-09-30 19:21:11,286]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS}
+TID: [0] [AM] [2014-09-30 19:21:11,459]  INFO {org.wso2.carbon.identity.authenticator.iwa.ui.internal.Activator} -  Integrated Windows Authenticator enabled in the system {org.wso2.carbon.identity.authenticator.iwa.ui.internal.Activator}
+TID: [0] [AM] [2014-09-30 19:21:11,566]  INFO {org.wso2.carbon.ldap.server.DirectoryActivator} -  Embedded LDAP is disabled. {org.wso2.carbon.ldap.server.DirectoryActivator}
+TID: [0] [AM] [2014-09-30 19:21:12,592]  INFO {org.wso2.carbon.identity.user.store.remote.internal.CarbonRemoteUserStoreDSComponent} -  Carbon Remote User Store activated successfully. {org.wso2.carbon.identity.user.store.remote.internal.CarbonRemoteUserStoreDSComponent}
+TID: [0] [AM] [2014-09-30 19:21:12,734]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 71ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [AM] [2014-09-30 19:21:12,976]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:14,001]  INFO {org.wso2.carbon.social.sql.internal.SQLSocialComponent} -  Social Activity service is activated  with SQL Implementation {org.wso2.carbon.social.sql.internal.SQLSocialComponent}
+TID: [0] [AM] [2014-09-30 19:21:14,068]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent}
+TID: [0] [AM] [2014-09-30 19:21:16,481]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined {org.apache.catalina.startup.TaglibUriRule}
+TID: [0] [AM] [2014-09-30 19:21:17,059]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [AM] [2014-09-30 19:21:17,347]  INFO {org.wso2.carbon.stratos.landing.page.deployer.LandingPageWebappDeployer} -  Deployed product landing page webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/home] {org.wso2.carbon.stratos.landing.page.deployer.LandingPageWebappDeployer}
+TID: [0] [AM] [2014-09-30 19:21:17,347]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [0] [AM] [2014-09-30 19:21:17,373]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [0] [AM] [2014-09-30 19:21:17,383]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Identity Keystore from : repository/resources/security/wso2carbon.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [0] [AM] [2014-09-30 19:21:17,386]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Trust Keystore from : repository/resources/security/client-truststore.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [0] [AM] [2014-09-30 19:21:17,402]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [0] [AM] [2014-09-30 19:21:17,402]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [0] [AM] [2014-09-30 19:21:17,405]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [0] [AM] [2014-09-30 19:21:17,534]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:17,581]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:17,600]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT].File[/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/webapps/STRATOS_ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [AM] [2014-09-30 19:21:19,060]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: SecurityVerifierService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:19,441]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: SecVerifier.aar - file:/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/axis2services/SecVerifier.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:19,489]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:19,504]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:19,542]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/webapps/authenticationendpoint.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [AM] [2014-09-30 19:21:20,207]  INFO {JAGGERY.app:js} -  server url was not found under jaggery.conf file. Therefore connecting to the services same as the deployed carbon server {JAGGERY.app:js}
+TID: [0] [AM] [2014-09-30 19:21:21,336]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/webapps/oauth2.war] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [AM] [2014-09-30 19:21:21,728]  INFO {JAGGERY.config.app:js} -  Emitting event : tenantLoad {JAGGERY.config.app:js}
+TID: [0] [AM] [2014-09-30 19:21:21,739]  INFO {JAGGERY.config.app:js} -  Emitting event : tenantCreate {JAGGERY.config.app:js}
+TID: [0] [AM] [2014-09-30 19:21:23,814]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  loadResourcesFrom {org.apache.shindig.gadgets.features.FeatureRegistry}
+TID: [0] [AM] [2014-09-30 19:21:23,819]  INFO {org.apache.shindig.common.xml.XmlUtil} -  errorNotUsingSecureXML {org.apache.shindig.common.xml.XmlUtil}
+TID: [0] [AM] [2014-09-30 19:21:23,819]  INFO {org.apache.shindig.common.xml.XmlUtil} -  reuseDocumentBuilders {org.apache.shindig.common.xml.XmlUtil}
+TID: [0] [AM] [2014-09-30 19:21:23,940]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  loadResourcesFrom {org.apache.shindig.gadgets.features.FeatureRegistry}
+TID: [0] [AM] [2014-09-30 19:21:25,373]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  loadResourcesFrom {org.apache.shindig.config.JsonContainerConfigLoader}
+TID: [0] [AM] [2014-09-30 19:21:25,373]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  readingContainerConfig {org.apache.shindig.config.JsonContainerConfigLoader}
+TID: [0] [AM] [2014-09-30 19:21:25,428]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Token TTL for container "{0}" was {1} and will be ignored. {org.apache.shindig.auth.BasicSecurityTokenCodec}
+TID: [0] [AM] [2014-09-30 19:21:25,429]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Token TTL for container "{0}" was {1} and will be ignored. {org.apache.shindig.auth.BasicSecurityTokenCodec}
+TID: [0] [AM] [2014-09-30 19:21:25,564]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Using random key for OAuth2 client-side state encryption {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger}
+TID: [0] [AM] [2014-09-30 19:21:25,564]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  OAuth2CrypterProvider constructor {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger}
+TID: [0] [AM] [2014-09-30 19:21:25,569]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Using random key for OAuth client-side state encryption {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider}
+TID: [0] [AM] [2014-09-30 19:21:25,569]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  usingRandomKey {org.apache.shindig.gadgets.oauth.OAuthModule}
+TID: [0] [AM] [2014-09-30 19:21:25,570]  WARN {org.apache.shindig.gadgets.oauth.OAuthModule} -  couldNotLoadSignedKey {org.apache.shindig.gadgets.oauth.OAuthModule}
+TID: [0] [AM] [2014-09-30 19:21:25,650]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/webapps/shindig] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [AM] [2014-09-30 19:21:25,871]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:21:25,884]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:21:25,915]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v10 - file:/home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v10.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [AM] [2014-09-30 19:21:25,920]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [AM] [2014-09-30 19:21:26,159]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: AppManagerOAuth2Service {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:26,213]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.appmgt.gateway-1.2.1 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:26,692]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} -  We don't support method overloading. Ignoring [validateAudienceRestriction] {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator}
+TID: [0] [AM] [2014-09-30 19:21:26,806]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:26,829]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: UserInformationRecoveryService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:26,914]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:27,034]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.identity.mgt-4.2.2 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:27,287]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.idp.mgt-4.2.3 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:27,731]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.registry.ws.api-4.2.0 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:27,945]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: wso2carbon-sts {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:27,977]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-4.2.1 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:28,082]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.2.0 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [AM] [2014-09-30 19:21:28,328]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2014-09-30 19:21:28,457] ERROR {org.wso2.carbon.identity.provisioning.OutboundProvisioningManager} -  Error while out-bound provisioning. {org.wso2.carbon.identity.provisioning.OutboundProvisioningManager}
+java.lang.NullPointerException
+	at org.wso2.carbon.identity.application.mgt.dao.impl.ApplicationDAOImpl.getApplication(ApplicationDAOImpl.java:1036)
+	at org.wso2.carbon.identity.application.mgt.ApplicationInfoProvider.getServiceProvider(ApplicationInfoProvider.java:178)
+	at org.wso2.carbon.identity.provisioning.OutboundProvisioningManager.provision(OutboundProvisioningManager.java:343)
+	at org.wso2.carbon.identity.provisioning.listener.DefaultInboundUserProvisioningListener.doPreAddRole(DefaultInboundUserProvisioningListener.java:451)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.addRole(AbstractUserStoreManager.java:2102)
+	at org.wso2.carbon.user.core.common.AbstractUserStoreManager.addRole(AbstractUserStoreManager.java:3438)
+	at org.wso2.carbon.appmgt.impl.utils.APIUtil.setupSelfRegistration(APIUtil.java:1977)
+	at org.wso2.carbon.appmgt.impl.internal.APIManagerComponent.activate(APIManagerComponent.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:517)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1267)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1186)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1081)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+TID: [0] [AM] [2014-09-30 19:21:28,528]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [AM] [2014-09-30 19:21:28,585]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Starting ESB... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [0] [AM] [2014-09-30 19:21:28,601]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Initializing Apache Synapse... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [0] [AM] [2014-09-30 19:21:28,606]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/. {org.apache.synapse.SynapseControllerFactory}
+TID: [0] [AM] [2014-09-30 19:21:28,606]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /home/kasun/Team/SVN/Carbon/platform/branches/turing/products/appmgt/1.0.0/modules/integration/tests-ui/target/carbontmp1412085061085/wso2eam-1.0.0/././repository/deployment/server/synapse-configs/default {org.apache.synapse.SynapseControllerFactory}
+TID: [0] [AM] [2014-09-30 19:21:28,606]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost {org.apache.synapse.SynapseControllerFactory}
+TID: [0] [AM] [2014-09-30 19:21:28,610]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s {org.apache.synapse.SynapseControllerFactory}
+TID: [0] [AM] [2014-09-30 19:21:28,618]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Tue Sep 30 19:21:28 IST 2014 {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,620]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} -  Loading the mediation configuration from the file system {org.wso2.carbon.mediation.initializer.CarbonSynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,622]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder}
+TID: [0] [AM] [2014-09-30 19:21:28,622]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration {org.apache.synapse.config.xml.XMLConfigurationBuilder}
+TID: [0] [AM] [2014-09-30 19:21:28,721]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.SynapseConfigurationBuilder}
+TID: [0] [AM] [2014-09-30 19:21:28,723]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions... {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,770]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service... {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,771]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services... {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,771]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : WorkflowCallbackService {org.apache.synapse.core.axis2.ProxyService}
+TID: [0] [AM] [2014-09-30 19:21:28,779]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service WorkflowCallbackService to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [0] [AM] [2014-09-30 19:21:28,786]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: WorkflowCallbackService {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [AM] [2014-09-30 19:21:28,804]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : WorkflowCallbackService {org.apache.synapse.core.axis2.ProxyService}
+TID: [0] [AM] [2014-09-30 19:21:28,804]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : WorkflowCallbackService {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,804]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources... {org.apache.synapse.Axis2SynapseController}
+TID: [0] [AM] [2014-09-30 19:21:28,811]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMAuthorizeAPI_ {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:21:28,811]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2APPMTokenAPI_ {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:21:28,811]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMStatisticsAPI_ {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:21:28,811]  INFO {org.apache.synapse.rest.API} -  Initializing API: _WSO2AMRevokeAPI_ {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:21:28,811]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing... {org.apache.synapse.ServerManager}
+TID: [0] [AM] [2014-09-30 19:21:29,138]  INFO {JAGGERY.config.app:js} -  Publisher URL : http://localhost:9763/publisher {JAGGERY.config.app:js}
+TID: [0] [AM] [2014-09-30 19:21:29,348]  INFO {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} -  Identity ApplicationManagementComponent bundle is activated {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:29,358]  INFO {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent} -  Application Management UI bundle acticated! {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:29,410]  INFO {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager} -  A SSO Service Provider is registered for : store {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager}
+TID: [0] [AM] [2014-09-30 19:21:29,410]  INFO {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager} -  A SSO Service Provider is registered for : social {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager}
+TID: [0] [AM] [2014-09-30 19:21:29,410]  INFO {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager} -  A SSO Service Provider is registered for : publisher {org.wso2.stratos.identity.saml2.sso.mgt.SSOServiceProviderUpdateManager}
+TID: [0] [AM] [2014-09-30 19:21:29,428]  WARN {org.wso2.carbon.identity.sso.saml.admin.FileBasedConfigManager} -  sso-idp-config.xml does not exist in the 'conf' directory. The system maydepend on the service providers added through the UI. {org.wso2.carbon.identity.sso.saml.admin.FileBasedConfigManager}
+TID: [0] [AM] [2014-09-30 19:21:29,493]  INFO {org.wso2.carbon.idp.mgt.internal.IdPManagementServiceComponent} -  Identity Application Management Database initialization not attempted since 'setup' variable was not provided during startup {org.wso2.carbon.idp.mgt.internal.IdPManagementServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:29,527]  INFO {org.wso2.carbon.security.internal.SecurityMgtServiceComponent} -  POX Security Disabled {org.wso2.carbon.security.internal.SecurityMgtServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:29,538]  INFO {org.wso2.carbon.identity.core.internal.IdentityCoreServiceComponent} -  Identity Database schema initialization check was skipped since 'setup' variable was not given during startup {org.wso2.carbon.identity.core.internal.IdentityCoreServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:29,732]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:21:29,738]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Pass-through HTTPS Listener started on 0:0:0:0:0:0:0:0:8243 {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:21:29,738]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:21:29,741]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Pass-through HTTP Listener started on 0:0:0:0:0:0:0:0:8280 {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:21:29,743]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [0] [AM] [2014-09-30 19:21:29,971]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [0] [AM] [2014-09-30 19:21:30,012]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} -  Task service starting in STANDALONE mode... {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl}
+TID: [0] [AM] [2014-09-30 19:21:30,022]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,070]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [AM] [2014-09-30 19:21:30,070]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 App Manager-1.6.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,071]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 24 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,296]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://192.168.1.111:9443/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,296]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  API Publisher Default Context : http://192.168.1.111:9763/publisher {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,296]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  API Store Default Context : http://192.168.1.111:9763/store {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,386]  INFO {org.wso2.carbon.appmgt.keymgt.internal.APIKeyMgtServiceComponent} -  Setting default carbon host for thrift key management service: 192.168.1.111 {org.wso2.carbon.appmgt.keymgt.internal.APIKeyMgtServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,392]  INFO {org.wso2.carbon.appmgt.keymgt.internal.APIKeyMgtServiceComponent} -  Started thrift key mgt service at port:10397 {org.wso2.carbon.appmgt.keymgt.internal.APIKeyMgtServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,407]  INFO {org.wso2.carbon.identity.entitlement.internal.EntitlementServiceComponent} -  Started thrift entitlement service at port:10500 {org.wso2.carbon.identity.entitlement.internal.EntitlementServiceComponent}
+TID: [0] [AM] [2014-09-30 19:21:30,929]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:30,929+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:31,209]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:31,209+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:31,338]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:31,338+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:32,037]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:32,037+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:32,152]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:32,152+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:32,624]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:32,624+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:32,690]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:32,690+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:32,846]  INFO {JAGGERY.config.app:js} -  Store URL : http://localhost:9763/store {JAGGERY.config.app:js}
+TID: [0] [AM] [2014-09-30 19:21:35,419]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Thread pool size for session persistent consumer : 100 {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore}
+TID: [0] [AM] [2014-09-30 19:21:35,425]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Session Data Persistence of Authentication framework is not enabled. {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore}
+TID: [0] [AM] [2014-09-30 19:21:35,426]  INFO {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore} -  Session Data CleanUp Task of Authentication framework is not enabled. {org.wso2.carbon.identity.application.authentication.framework.store.SessionDataStore}
+TID: [0] [AM] [2014-09-30 19:21:37,073]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,139]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:38,139+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:38,182] ERROR {org.wso2.carbon.identity.entitlement.EntitlementUtil} -  Invalid Namespace in policy {org.wso2.carbon.identity.entitlement.EntitlementUtil}
+TID: [0] [AM] [2014-09-30 19:21:38,411]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,412]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,412]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,412]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,413]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 1, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:21:38,541]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 0ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [AM] [2014-09-30 19:21:38,798]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:38,798+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:38,828]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:38,828+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:38,879] ERROR {org.wso2.carbon.identity.entitlement.EntitlementUtil} -  Invalid Namespace in policy {org.wso2.carbon.identity.entitlement.EntitlementUtil}
+TID: [0] [AM] [2014-09-30 19:21:38,885] ERROR {org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver} -  Invalid Entitlement Policy. Policy is not valid according to XACML schema {org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver}
+org.wso2.carbon.identity.entitlement.EntitlementException: Invalid Entitlement Policy. Policy is not valid according to XACML schema
+	at org.wso2.carbon.identity.entitlement.EntitlementPolicyAdminService.addOrUpdatePolicy(EntitlementPolicyAdminService.java:706)
+	at org.wso2.carbon.identity.entitlement.EntitlementPolicyAdminService.addPolicy(EntitlementPolicyAdminService.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:212)
+	at org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver.invokeBusinessLogic(RPCInOnlyMessageReceiver.java:66)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:110)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.axis2.transport.http.HTTPTransportUtils.processHTTPPostRequest(HTTPTransportUtils.java:172)
+	at org.apache.axis2.transport.http.AxisServlet.doPost(AxisServlet.java:146)
+	at org.wso2.carbon.core.transports.CarbonServlet.doPost(CarbonServlet.java:231)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+TID: [0] [AM] [2014-09-30 19:21:38,895] ERROR {org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl} -  Cannot save or publish XACML policy. {org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl}
+org.apache.axis2.AxisFault: Invalid Entitlement Policy. Policy is not valid according to XACML schema
+	at org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(Utils.java:531)
+	at org.apache.axis2.description.RobustOutOnlyAxisOperation$RobustOutOnlyOperationClient.handleResponse(RobustOutOnlyAxisOperation.java:91)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:445)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.wso2.carbon.identity.entitlement.stub.EntitlementPolicyAdminServiceStub.addPolicy(EntitlementPolicyAdminServiceStub.java:1320)
+	at org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl.doSavePolicy(XacmlEntitlementServiceImpl.java:266)
+	at org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl.savePolicy(XacmlEntitlementServiceImpl.java:112)
+	at org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl.generateAndSaveEntitlementPolicy(XacmlEntitlementServiceImpl.java:182)
+	at org.wso2.carbon.appmgt.impl.entitlement.XacmlEntitlementServiceImpl.generateAndSaveEntitlementPolicies(XacmlEntitlementServiceImpl.java:173)
+	at org.wso2.carbon.appmgt.impl.APIProviderImpl.generateEntitlementPolicies(APIProviderImpl.java:418)
+	at org.wso2.carbon.appmgt.impl.UserAwareAPIProvider.generateEntitlementPolicies(UserAwareAPIProvider.java:130)
+	at org.wso2.carbon.appmgt.hostobjects.APIProviderHostObject.jsFunction_generateEntitlementPolicies(APIProviderHostObject.java:557)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1._c_generateEntitlementPolicies_10(/publisher/assets/default/asset.jag:313)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1.call(/publisher/assets/default/asset.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1._c_anonymous_8(/publisher/assets/default/asset.jag:288)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1.call(/publisher/assets/default/asset.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.publisher.modules.c4._c_anonymous_12(/publisher/modules/router-g.js:183)
+	at org.jaggeryjs.rhino.publisher.modules.c4.call(/publisher/modules/router-g.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1._c_anonymous_1(/publisher/assets/default/asset.jag:531)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1.call(/publisher/assets/default/asset.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.c6._c_anonymous_17(/publisher/modules/publisher.js:438)
+	at org.jaggeryjs.rhino.publisher.modules.c6.call(/publisher/modules/publisher.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.mozilla.javascript.gen._store__server_js_4._c_anonymous_17([store]/server.js:271)
+	at org.mozilla.javascript.gen._store__server_js_4.call([store]/server.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.publisher.modules.c6._c_anonymous_16(/publisher/modules/publisher.js:433)
+	at org.jaggeryjs.rhino.publisher.modules.c6.call(/publisher/modules/publisher.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1._c_script_0(/publisher/assets/default/asset.jag:17)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1.call(/publisher/assets/default/asset.jag)
+	at org.jaggeryjs.rhino.publisher.assets.default.c1.exec(/publisher/assets/default/asset.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.executeScript(WebAppManager.java:279)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.include(WebAppManager.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	at org.jaggeryjs.rhino.publisher.controllers.c3._c_anonymous_1(/publisher/controllers/asset_router.jag:87)
+	at org.jaggeryjs.rhino.publisher.controllers.c3.call(/publisher/controllers/asset_router.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
+	at org.jaggeryjs.rhino.publisher.controllers.c3._c_script_0(/publisher/controllers/asset_router.jag:8)
+	at org.jaggeryjs.rhino.publisher.controllers.c3.call(/publisher/controllers/asset_router.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.publisher.controllers.c3.call(/publisher/controllers/asset_router.jag)
+	at org.jaggeryjs.rhino.publisher.controllers.c3.exec(/publisher/controllers/asset_router.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:536)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:379)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+TID: [0] [AM] [2014-09-30 19:21:38,939]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:38,938+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:39,051]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp6 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:21:39,194]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:21:39,403]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:39,403+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:39,572]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:21:44,737]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:44,737+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:44,943]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp6:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:21:45,010]  INFO {JAGGERY.apis.user:jag} -  Emitting event : tenantLoad {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:21:45,013]  INFO {JAGGERY.apis.user:jag} -  Emitting event : tenantCreate {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:21:45,073]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:45,086]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:45,092]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:21:45,140]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:21:45,139+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:21:45,319]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:45,448]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:46,270]  INFO {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder} -  XACML policy schema loaded successfully. {org.wso2.carbon.identity.entitlement.internal.SchemaBuilder}
+TID: [0] [AM] [2014-09-30 19:21:47,206]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:47,227]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:48,693]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:48,712]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:50,110]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:50,138]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:51,546]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:51,565]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:52,935]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:52,956]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:54,318]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:54,336]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:55,704]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:55,743]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:57,151]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:57,168]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:58,507]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:58,523]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:59,872]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:21:59,889]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:01,228]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:01,245]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:02,574]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:02,595]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:03,922]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:03,953]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:05,280]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:05,296]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:06,617]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:06,634]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:07,963]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:07,980]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:09,331]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:09,347]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:10,685]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:10,702]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:12,035]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:12,069]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:13,411]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:13,427]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:14,741]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:14,758]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:16,092]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:16,130]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:17,470]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:22:17,474]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:22:18,789]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:18,824]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:19,615]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:22:19,700]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:20,201]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:20,201]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:22:20,351]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:22:20,351+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:22:20,363]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:22:20,363+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:22:20,387]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:22:20,386+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:22:21,117]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} -  This engine will expire all callbacks after : 120 seconds, irrespective of the timeout action, after the specified or optional timeout {org.apache.synapse.core.axis2.TimeoutHandler}
+TID: [0] [AM] [2014-09-30 19:22:21,331]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:22:21,331+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:22:21,357]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:22:21,357+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:22:21,406]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Initializing of policy store is started at :  Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,408]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} -  Using Global policy combining algorithm that is defined in configuration file. {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore}
+TID: [0] [AM] [2014-09-30 19:22:21,408]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@4af8524f at : Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,409]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@4af8524f at : Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,409]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Initializing of policy store is finished at :  Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,414]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Initializing of policy store is started at :  Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,414]  INFO {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore} -  Using Global policy combining algorithm that is defined in configuration file. {org.wso2.carbon.identity.entitlement.policy.store.DefaultPolicyDataStore}
+TID: [0] [AM] [2014-09-30 19:22:21,414]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Start retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@4af8524f at : Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,415]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Finish retrieving policies from org.wso2.carbon.identity.entitlement.policy.store.RegistryPolicyStoreManageModule@4af8524f at : Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,415]  INFO {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder} -  Initializing of policy store is finished at :  Tue Sep 30 19:22:21 IST 2014 {org.wso2.carbon.identity.entitlement.policy.finder.CarbonPolicyFinder}
+TID: [0] [AM] [2014-09-30 19:22:21,417]  WARN {org.wso2.balana.ctx.RequestCtxFactory} -  No Namespace defined in XACML request and Assume as XACML 3.0 {org.wso2.balana.ctx.RequestCtxFactory}
+TID: [0] [AM] [2014-09-30 19:22:21,439]  WARN {org.apache.synapse.core.axis2.SynapseCallbackReceiver} -  Synapse received a response for the request with message Id : urn:uuid:90454db2-c050-4a55-96ad-3443e818a3d0 But a callback is not registered (anymore) to process this response {org.apache.synapse.core.axis2.SynapseCallbackReceiver}
+TID: [0] [AM] [2014-09-30 19:23:21,417]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:21,417+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:21,475]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:21,475+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:24,211]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,726]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:24,726+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:24,852]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,852]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,852]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,852]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,853]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 2, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:23:24,991]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:24,991+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:25,079]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:25,079+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:25,142]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp2 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:23:25,189]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:23:25,393]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:25,393+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:25,538]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:23:25,697]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:25,696+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:25,879]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp2:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:23:25,923]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:25,924]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:23:26,003]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:26,002+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:26,179]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:26,210]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:27,638]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:27,664]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:29,074]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:29,106]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:30,479]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:30,513]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:31,881]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:31,905]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:33,259]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:33,284]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:34,644]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:34,669]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:36,030]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:36,082]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:37,461]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:23:37,462]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:23:40,019]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:40,051]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:40,856]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:23:40,918]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:41,395]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:41,400]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:23:41,476]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:41,476+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:41,588]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:41,587+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:42,422]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:42,422+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:42,440]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:23:42,440+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:23:42,449]  WARN {org.wso2.balana.ctx.RequestCtxFactory} -  No Namespace defined in XACML request and Assume as XACML 3.0 {org.wso2.balana.ctx.RequestCtxFactory}
+TID: [0] [AM] [2014-09-30 19:23:42,462]  WARN {org.apache.synapse.core.axis2.SynapseCallbackReceiver} -  Synapse received a response for the request with message Id : urn:uuid:ac9786a7-d5eb-4a25-8309-4da46c7eca48 But a callback is not registered (anymore) to process this response {org.apache.synapse.core.axis2.SynapseCallbackReceiver}
+TID: [0] [AM] [2014-09-30 19:24:42,524]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:42,524+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:42,573]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:42,573+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:45,373]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:24:45,843]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:45,843+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:45,967]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:24:45,967]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:24:45,967]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:24:45,967]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:24:45,967]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 3, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:24:46,314]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:46,313+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:46,395]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:46,395+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:46,459]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp5 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:24:46,495]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:24:46,695]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:46,695+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:46,843]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:24:47,004]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:47,004+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:47,163]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp5:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:24:47,233]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:47,234]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:24:47,312]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:24:47,312+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:24:47,476]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:47,507]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:48,927]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:48,955]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:50,323]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:50,375]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:51,739]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:51,765]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:53,136]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:53,165]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:54,546]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:54,573]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:55,964]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:56,002]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:57,381]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:24:57,382]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:24:59,338]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:24:59,375]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:00,159]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:00,223]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:00,721]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:00,729]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:00,778]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:00,778+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:00,786]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:00,786+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:01,584]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:01,584+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:01,602]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:01,602+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:01,631]  WARN {org.wso2.balana.ctx.RequestCtxFactory} -  No Namespace defined in XACML request and Assume as XACML 3.0 {org.wso2.balana.ctx.RequestCtxFactory}
+TID: [0] [AM] [2014-09-30 19:25:03,726]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:03,726+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:03,777]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:03,777+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:06,603]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,064]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:07,064+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,139]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,139]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,139]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,140]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,140]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 4, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,216]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:07,216+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,281]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:07,280+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,324]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp8 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,357]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,484]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:07,484+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,534]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:07,688]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:07,688+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:07,819]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp8:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:25:07,863]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:07,865]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:25:08,001]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:08,000+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:08,191]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:08,225]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:09,699]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:09,733]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:11,096]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:11,129]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:12,548]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:12,580]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:13,965]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:13,998]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:15,411]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:15,444]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:16,833]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:16,872]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:18,267]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:25:18,268]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:25:19,608]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:19,645]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:20,472]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:20,517]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:21,027]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:21,032]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:21,092]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:21,092+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:21,221]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:21,221+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:22,006]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:22,005+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:22,022]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:22,022+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:22,031]  WARN {org.wso2.balana.ctx.RequestCtxFactory} -  No Namespace defined in XACML request and Assume as XACML 3.0 {org.wso2.balana.ctx.RequestCtxFactory}
+TID: [0] [AM] [2014-09-30 19:25:23,364]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:23,400]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:24,184]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:24,232]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:24,744]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:24,749]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:24,806]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:24,806+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:24,818]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:24,818+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:25,673]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:25,673+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:25,688]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:25,688+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:25,698]  INFO {org.wso2.carbon.throttle.core.RoleBasedAccessRateController} -  You cannot access this service since you have exceeded the allocated quota. {org.wso2.carbon.throttle.core.RoleBasedAccessRateController}
+TID: [0] [AM] [2014-09-30 19:25:35,673]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:35,673+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:35,944]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:35,944+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:35,991]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:35,991+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:38,900]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,330]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:39,330+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:39,404]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,404]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,404]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,404]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,404]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 5, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,476]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:39,476+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:39,542]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:39,542+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:39,592]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp7 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:25:39,632]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:39,744]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:39,744+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:39,882]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:40,046]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:40,046+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:40,175]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp7:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:25:40,207]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:40,208]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:25:40,251]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:40,251+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:40,418]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:40,454]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:41,931]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:41,966]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:43,363]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:43,398]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:44,809]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:44,844]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:46,240]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:46,282]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:47,687]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:25:47,687]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:25:49,008]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:49,009]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:25:49,063]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:49,062+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:49,231]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:49,272]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:50,080]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:50,122]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:50,614]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:50,618]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:50,673]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:50,673+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:50,678]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:50,678+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:51,265]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:51,265+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:51,311]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:51,311+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:54,142]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,598]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:54,598+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:54,696]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,696]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,696]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,696]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,697]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 6, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:25:54,769]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:54,769+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:54,835]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:54,835+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:54,880]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp4 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:25:54,926]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:55,101]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:55,101+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:55,249]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:25:55,414]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:55,413+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:55,552]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp4:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:25:55,594]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:55,595]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:25:55,717]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:25:55,717+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:25:55,878]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:55,918]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:57,419]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:57,459]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:58,889]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:25:58,931]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:00,374]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:00,413]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:01,842]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:01,881]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:03,315]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:03,354]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:04,813]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:04,871]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:06,340]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:06,392]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:07,826]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:26:07,827]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:26:09,126]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:09,168]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:09,989]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:10,030]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:10,559]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:10,563]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:10,620]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:10,620+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:10,622]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:10,622+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:11,411]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:11,411+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:11,426]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:11,426+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:11,436]  WARN {org.wso2.balana.ctx.RequestCtxFactory} -  No Namespace defined in XACML request and Assume as XACML 3.0 {org.wso2.balana.ctx.RequestCtxFactory}
+TID: [0] [AM] [2014-09-30 19:26:13,487]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:13,487+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:13,536]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:13,536+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:16,352]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,805]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:16,805+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:16,891]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,891]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,891]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,891]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,891]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 7, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:16,969]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:16,969+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,045]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:17,045+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,090]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp3 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,157]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Submit {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:26:17,324]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:17,323+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,468]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Approve {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:26:17,533]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:17,533+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,572]  INFO {org.apache.synapse.rest.API} -  Initializing API: admin--testApp3:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:26:17,605]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:17,606]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:17,733]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:17,732+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:17,910]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:17,954]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:19,442]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:19,496]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:20,957]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:20,998]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:22,437]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:22,489]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:23,962]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:24,004]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:25,434]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:25,480]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:26,944]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:26,992]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:28,430]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:26:28,430]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:26:31,478]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:31,922]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:31,923]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:31,969]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:31,969+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:32,090]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:26:32,090]  INFO {unsubscription-api} -  Trying to add a subscription {unsubscription-api}
+TID: [0] [AM] [2014-09-30 19:26:32,111]  INFO {JAGGERY.apis.v1.lifecycle_api_router:jag} -  Calling promoteLifecycleState for action : Unpublish {JAGGERY.apis.v1.lifecycle_api_router:jag}
+TID: [0] [AM] [2014-09-30 19:26:32,277]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:32,277+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:32,392]  INFO {org.apache.synapse.rest.API} -  Destroying API: admin--testApp3:v1.0.0 {org.apache.synapse.rest.API}
+TID: [0] [AM] [2014-09-30 19:26:32,423]  INFO {restfulapis} -  calling post method {restfulapis}
+TID: [0] [AM] [2014-09-30 19:26:32,423]  INFO {subscription-api} -  Trying to add a subscription {subscription-api}
+TID: [0] [AM] [2014-09-30 19:26:32,440] ERROR {org.wso2.carbon.appmgt.hostobjects.APIStoreHostObject} -  Error while adding subscription for user: admin {org.wso2.carbon.appmgt.hostobjects.APIStoreHostObject}
+org.wso2.carbon.appmgt.api.APIManagementException: Subscriptions not allowed on APIs in the state: UNPUBLISHED
+	at org.wso2.carbon.appmgt.impl.APIConsumerImpl.addSubscription(APIConsumerImpl.java:1288)
+	at org.wso2.carbon.appmgt.impl.UserAwareAPIConsumer.addSubscription(UserAwareAPIConsumer.java:52)
+	at org.wso2.carbon.appmgt.hostobjects.APIStoreHostObject.jsFunction_addAPISubscription(APIStoreHostObject.java:1662)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:386)
+	at org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.modules.subscription.c1._c_anonymous_2(/store/extensions/assets/webapp/modules/subscription/add.jag:33)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.modules.subscription.c1.call(/store/extensions/assets/webapp/modules/subscription/add.jag)
+	at org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2430)
+	at org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)
+	at org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)
+	at org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.modules.subscription.c0._c_anonymous_1(/store/extensions/assets/webapp/modules/subscription/module.jag:5)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.modules.subscription.c0.call(/store/extensions/assets/webapp/modules/subscription/module.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.services.c1._c_anonymous_4(/store/extensions/assets/webapp/services/subscription.js:35)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.services.c1.call(/store/extensions/assets/webapp/services/subscription.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.apis.v_1.c1._c_anonymous_2(/store/extensions/assets/webapp/apis/v1/subscription.js:42)
+	at org.jaggeryjs.rhino.store.extensions.assets.webapp.apis.v_1.c1.call(/store/extensions/assets/webapp/apis/v1/subscription.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2._c_anonymous_1(/store/controllers/routers/restfulapis.jag:21)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2.call(/store/controllers/routers/restfulapis.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2._c_script_0(/store/controllers/routers/restfulapis.jag:83)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2.call(/store/controllers/routers/restfulapis.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2.call(/store/controllers/routers/restfulapis.jag)
+	at org.jaggeryjs.rhino.store.controllers.routers.c2.exec(/store/controllers/routers/restfulapis.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:567)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:273)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:536)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doPost(JaggeryServlet.java:29)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:755)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:379)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:178)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonTomcatValve$1.invoke(CarbonTomcatValve.java:47)
+	at org.wso2.carbon.webapp.mgt.TenantLazyLoaderValve.invoke(TenantLazyLoaderValve.java:56)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:47)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:141)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:156)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:52)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+TID: [0] [AM] [2014-09-30 19:26:32,496]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:32,496+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:33,841]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:33,910]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:34,744]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:34,783]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:35,307]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:35,822]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:35,822+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:37,074]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:37,117]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:37,973]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:38,014]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:38,465]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:39,124]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:39,167]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:39,657]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:39,658]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:39,849]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:39,849+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:39,980]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:40,023]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:40,473]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:40,473+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:40,525]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:40,525+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:43,282]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,745]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:43,745+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:43,829]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,829]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,829]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,829]  WARN {JAGGERY.assets.default.assets:jag} -  [] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,830]  WARN {JAGGERY.assets.default.assets:jag} -  [{"entitlementPolicyPartialId" : 8, "effect" : "Permit"}] {JAGGERY.assets.default.assets:jag}
+TID: [0] [AM] [2014-09-30 19:26:43,904]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:43,904+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:43,989]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:43,989+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:44,036]  INFO {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil} -  SSO Provider wso2is 5.0.0 configured for testApp1 {org.wso2.carbon.appmgt.impl.idp.sso.SSOConfiguratorUtil}
+TID: [0] [AM] [2014-09-30 19:26:45,728]  INFO {JAGGERY.controllers.acs:jag} -  Emitting event : login {JAGGERY.controllers.acs:jag}
+TID: [0] [AM] [2014-09-30 19:26:46,303]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:46,303+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:46,432]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:46,433]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:46,505]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:46,505+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:46,617]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /testApp/1.0.0 {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [0] [AM] [2014-09-30 19:26:46,709]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:46,709+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:48,047]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:48,099]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:49,288]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:49,399]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:49,479]  INFO {org.wso2.carbon.appmgt.impl.workflow.UserSignUpSimpleWorkflowExecutor} -  Executing User SignUp Workflow {org.wso2.carbon.appmgt.impl.workflow.UserSignUpSimpleWorkflowExecutor}
+TID: [0] [AM] [2014-09-30 19:26:49,479]  INFO {org.wso2.carbon.appmgt.impl.workflow.UserSignUpWSWorkflowExecutor} -  Adding Subscriber role to user {org.wso2.carbon.appmgt.impl.workflow.UserSignUpWSWorkflowExecutor}
+TID: [0] [AM] [2014-09-30 19:26:49,577]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:49,577+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:49,603]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:49,603+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:50,679]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:50,680]  INFO {JAGGERY.apis.user:jag} -  Emitting event : login {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:50,680]  INFO {JAGGERY.apis.user:jag} -  Emitting event : userRegister {JAGGERY.apis.user:jag}
+TID: [0] [AM] [2014-09-30 19:26:50,807]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'testUser@carbon.super [-1234]' logged in at [2014-09-30 19:26:50,807+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:50,976]  INFO {asset} -  Custom asset manager loaded {asset}
+TID: [0] [AM] [2014-09-30 19:26:51,122]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  STATUS = Executing default 'fault' sequence, ERROR_CODE = 101504, ERROR_MESSAGE = Send timeout {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [0] [AM] [2014-09-30 19:26:51,124]  WARN {org.apache.synapse.core.axis2.TimeoutHandler} -  Expiring message ID : urn:uuid:7ac9dcba-06a3-4bd4-ae4c-839178286849; dropping message after global timeout of : 120 seconds {org.apache.synapse.core.axis2.TimeoutHandler}
+TID: [0] [AM] [2014-09-30 19:26:51,492]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-09-30 19:26:51,492+0530] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [0] [AM] [2014-09-30 19:26:52,495]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 App Manager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2014-09-30 19:26:52,497]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2014-09-30 19:26:52,588]  INFO {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent} -  Application Management UI bundle is deactivated {org.wso2.carbon.identity.application.mgt.ui.internal.ApplicationMgtUIServiceComponent}
+TID: [0] [AM] [2014-09-30 19:26:52,606]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [0] [AM] [2014-09-30 19:26:54,673] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/workflow-admin]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/workflow-admin]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/workflow-admin]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,675] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/shindig]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,676] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/STRATOS_ROOT]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,680] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/oauth2]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,710] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/publisher]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,712] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/portal]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,780] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/store]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,779]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2014-09-30 19:26:54,782] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/dashboard]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/dashboard]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/dashboard]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 9 more
+TID: [0] [AM] [2014-09-30 19:26:54,782]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:26:54,783]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:26:54,783]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  HTTPS Listener shutdown. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:26:54,784]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  HTTP Listener shutdown. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:26:54,785]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [0] [AM] [2014-09-30 19:26:54,793]  WARN {org.apache.synapse.transport.passthru.TargetHandler} -  Connection closed by target host before receiving the response {org.apache.synapse.transport.passthru.TargetHandler}
+TID: [0] [AM] [2014-09-30 19:26:54,794]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [0] [AM] [2014-09-30 19:26:54,794]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [0] [AM] [2014-09-30 19:26:54,794]  WARN {org.apache.synapse.core.axis2.SynapseCallbackReceiver} -  Synapse received a response for the request with message Id : urn:uuid:7ac9dcba-06a3-4bd4-ae4c-839178286849 But a callback is not registered (anymore) to process this response {org.apache.synapse.core.axis2.SynapseCallbackReceiver}
+TID: [0] [AM] [2014-09-30 19:26:54,795]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [0] [AM] [2014-09-30 19:26:54,798] ERROR {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Error occurred during cleaning up webapps {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer}
+org.wso2.carbon.CarbonException: Cannot lazy unload webapp StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:379)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:354)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:379)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:259)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1391)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:449)
+	at org.apache.axis2.engine.AxisConfiguration.cleanup(AxisConfiguration.java:1459)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:788)
+	at org.apache.axis2.transport.http.AxisServlet.destroy(AxisServlet.java:528)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.destroy(ServletRegistration.java:38)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.unregister(ProxyServlet.java:153)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:88)
+	at org.wso2.carbon.core.init.CarbonServerManager.stop(CarbonServerManager.java:925)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.deactivate(CarbonCoreServiceComponent.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:389)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.destroy(DelegationServlet.java:43)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1465)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1823)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:365)
+	... 47 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/authenticationendpoint]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 48 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 50 more
+TID: [0] [AM] [2014-09-30 19:26:54,800] ERROR {org.apache.axis2.deployment.DeploymentEngine} -  Error occurred while cleaning up deployer {org.apache.axis2.deployment.DeploymentEngine}
+org.apache.axis2.deployment.DeploymentException: Error occurred during cleaning up webapps
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:263)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1391)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:449)
+	at org.apache.axis2.engine.AxisConfiguration.cleanup(AxisConfiguration.java:1459)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:788)
+	at org.apache.axis2.transport.http.AxisServlet.destroy(AxisServlet.java:528)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.destroy(ServletRegistration.java:38)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.unregister(ProxyServlet.java:153)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:88)
+	at org.wso2.carbon.core.init.CarbonServerManager.stop(CarbonServerManager.java:925)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.deactivate(CarbonCoreServiceComponent.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:389)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.destroy(DelegationServlet.java:43)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1465)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1823)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.wso2.carbon.CarbonException: Cannot lazy unload webapp StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:379)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:354)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:379)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:259)
+	... 44 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:365)
+	... 47 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/authenticationendpoint]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 48 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 50 more
+TID: [0] [AM] [2014-09-30 19:26:54,804] ERROR {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer} -  Error occurred during cleaning up webapps {org.wso2.carbon.webapp.mgt.AbstractWebappDeployer}
+org.wso2.carbon.CarbonException: Cannot lazy unload webapp StandardEngine[Catalina].StandardHost[localhost].StandardContext[/social]
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:379)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:354)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:379)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:259)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1391)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:449)
+	at org.apache.axis2.engine.AxisConfiguration.cleanup(AxisConfiguration.java:1459)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:788)
+	at org.apache.axis2.transport.http.AxisServlet.destroy(AxisServlet.java:528)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.destroy(ServletRegistration.java:38)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.unregister(ProxyServlet.java:153)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:88)
+	at org.wso2.carbon.core.init.CarbonServerManager.stop(CarbonServerManager.java:925)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.deactivate(CarbonCoreServiceComponent.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:389)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.destroy(DelegationServlet.java:43)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1465)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1823)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/social]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:365)
+	... 47 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/social]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 48 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 50 more
+TID: [0] [AM] [2014-09-30 19:26:54,805] ERROR {org.apache.axis2.deployment.DeploymentEngine} -  Error occurred while cleaning up deployer {org.apache.axis2.deployment.DeploymentEngine}
+org.apache.axis2.deployment.DeploymentException: Error occurred during cleaning up webapps
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:263)
+	at org.apache.axis2.deployment.DeploymentEngine.cleanup(DeploymentEngine.java:1391)
+	at org.wso2.carbon.core.CarbonAxisConfigurator.cleanup(CarbonAxisConfigurator.java:449)
+	at org.apache.axis2.engine.AxisConfiguration.cleanup(AxisConfiguration.java:1459)
+	at org.apache.axis2.context.ConfigurationContext.terminate(ConfigurationContext.java:788)
+	at org.apache.axis2.transport.http.AxisServlet.destroy(AxisServlet.java:528)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.destroy(ServletRegistration.java:38)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.unregister(ProxyServlet.java:153)
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceImpl.unregister(HttpServiceImpl.java:88)
+	at org.wso2.carbon.core.init.CarbonServerManager.stop(CarbonServerManager.java:925)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.deactivate(CarbonCoreServiceComponent.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.deactivate(ServiceComponent.java:387)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.deactivate(ServiceComponentProp.java:161)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:389)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.dispose(ServiceComponentProp.java:102)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:344)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.disposeInstances(InstanceProcess.java:306)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:368)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.unregister(ServiceRegistrationImpl.java:225)
+	at org.eclipse.equinox.http.servlet.internal.Activator.removeProxyServlet(Activator.java:87)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.destroy(ProxyServlet.java:44)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.destroy(DelegationServlet.java:43)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1465)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1823)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.wso2.carbon.CarbonException: Cannot lazy unload webapp StandardEngine[Catalina].StandardHost[localhost].StandardContext[/social]
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:379)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:354)
+	at org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer.lazyUnload(TomcatGenericWebappsDeployer.java:379)
+	at org.wso2.carbon.webapp.mgt.AbstractWebappDeployer.cleanup(AbstractWebappDeployer.java:259)
+	... 44 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/social]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.webapp.mgt.WebApplication.lazyUnload(WebApplication.java:365)
+	... 47 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager[/social]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5474)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 48 more
+Caused by: java.lang.SecurityException: Illegal access attempt by  tenant[-1] to sessions owned by tenant[-1234]
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.checkAccess(CarbonTomcatSessionManager.java:126)
+	at org.wso2.carbon.webapp.mgt.CarbonTomcatSessionManager.findSessions(CarbonTomcatSessionManager.java:78)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:525)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 50 more
+TID: [0] [AM] [2014-09-30 19:26:54,861] ERROR {org.apache.catalina.core.ContainerBase} -  A child container failed during stop {org.apache.catalina.core.ContainerBase}
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost]]
+	at java.util.concurrent.FutureTask$Sync.innerGet(FutureTask.java:222)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:83)
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1179)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:753)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:345)
+	at org.wso2.carbon.tomcat.internal.ServerManager.stop(ServerManager.java:113)
+	at org.wso2.carbon.tomcat.internal.TomcatBundleActivator.stop(TomcatBundleActivator.java:65)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdown(CarbonServerManager.java:849)
+	at org.wso2.carbon.server.admin.service.ServerAdmin$3.run(ServerAdmin.java:244)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina].StandardHost[localhost]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1564)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1186)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 7 more
+TID: [0] [AM] [2014-09-30 19:26:54,861] ERROR {org.wso2.carbon.tomcat.internal.ServerManager} -  Error while stopping tomcat {org.wso2.carbon.tomcat.internal.ServerManager}
+org.apache.catalina.LifecycleException: Failed to stop component [StandardServer[8005]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:345)
+	at org.wso2.carbon.tomcat.internal.ServerManager.stop(ServerManager.java:113)
+	at org.wso2.carbon.tomcat.internal.TomcatBundleActivator.stop(TomcatBundleActivator.java:65)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdown(CarbonServerManager.java:849)
+	at org.wso2.carbon.server.admin.service.ServerAdmin$3.run(ServerAdmin.java:244)
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardService[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:753)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 18 more
+Caused by: org.apache.catalina.LifecycleException: Failed to stop component [StandardEngine[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 20 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during stop
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:1186)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 22 more
+TID: [0] [AM] [2014-09-30 19:26:54,863]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [AM] [2014-09-30 19:26:55,301]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [AM] [2014-09-30 19:26:55,301]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="am-features-test-suite" duration-ms="318878" started-at="2014-09-30T13:51:32Z" finished-at="2014-09-30T13:56:51Z">
+  <groups>
+    <group name="java.lang.reflect.Method">
+      <method signature="AppDeleteTestCase.testApplicationDeletion()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase@46f20434]" name="testApplicationDeletion" class="org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase"/>
+      <method signature="JWTGenerationTestCase.testJWTGeneration()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase@3b8e80a6]" name="testJWTGeneration" class="org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase"/>
+      <method signature="LifeCycleTestCase.testApplicationSubscribe()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase@4b3ec2dd]" name="testApplicationSubscribe" class="org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase"/>
+      <method signature="ResourceAuthRolesTestCase.testResourceAuthRoles()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase@49f10a67]" name="testResourceAuthRoles" class="org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase"/>
+      <method signature="ResourceAuthXCMLTestCase.testResourceAuthRoles()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase@43a4181c]" name="testResourceAuthRoles" class="org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase"/>
+      <method signature="SAMLtoBackendTestCase.testSAMLToBackend()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase@57f5b4d1]" name="testSAMLToBackend" class="org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase"/>
+      <method signature="SSOTestCase.testSSO()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase@56b61c3]" name="testSSO" class="org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase"/>
+      <method signature="SSOutTestCase.testSSOut()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase@44323274]" name="testSSOut" class="org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase"/>
+      <method signature="SelfSignUpTestCase.testSelfSignUp()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase@4ce63606]" name="testSelfSignUp" class="org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase"/>
+      <method signature="TagsTestCase.testTags()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase@4a2af8f5]" name="testTags" class="org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase"/>
+      <method signature="ThrottlingTestCase.testThrottlingTier()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase@18f63055]" name="testThrottlingTier" class="org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase"/>
+    </group> <!-- java.lang.reflect.Method -->
+  </groups>
+  <test name="Test - APPmanager" duration-ms="318878" started-at="2014-09-30T13:51:32Z" finished-at="2014-09-30T13:56:51Z">
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase@3b8e80a6]" name="init" is-config="true" duration-ms="17370" started-at="2014-09-30T19:23:21Z" finished-at="2014-09-30T19:23:38Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testJWTGeneration()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase@3b8e80a6]" name="testJWTGeneration" duration-ms="63666" started-at="2014-09-30T19:23:38Z" description="JWT Generation Test Case" finished-at="2014-09-30T19:24:42Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testJWTGeneration -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase@3b8e80a6]" name="destroy" is-config="true" duration-ms="72" started-at="2014-09-30T19:24:42Z" finished-at="2014-09-30T19:24:42Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase@57f5b4d1]" name="init" is-config="true" duration-ms="46054" started-at="2014-09-30T19:21:32Z" finished-at="2014-09-30T19:22:18Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testSAMLToBackend()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase@57f5b4d1]" name="testSAMLToBackend" duration-ms="62688" started-at="2014-09-30T19:22:18Z" description="SAML to backend Test Case" finished-at="2014-09-30T19:23:21Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testSAMLToBackend -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase@57f5b4d1]" name="destroy" is-config="true" duration-ms="54" started-at="2014-09-30T19:23:21Z" finished-at="2014-09-30T19:23:21Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase@56b61c3]" name="init" is-config="true" duration-ms="1320" started-at="2014-09-30T19:26:32Z" finished-at="2014-09-30T19:26:33Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testSSO()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase@56b61c3]" name="testSSO" duration-ms="2006" started-at="2014-09-30T19:26:33Z" description="Test Single Sign On" finished-at="2014-09-30T19:26:35Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testSSO -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase@56b61c3]" name="destroy" is-config="true" duration-ms="3" started-at="2014-09-30T19:26:35Z" finished-at="2014-09-30T19:26:35Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase@49f10a67]" name="init" is-config="true" duration-ms="17748" started-at="2014-09-30T19:25:51Z" finished-at="2014-09-30T19:26:08Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testResourceAuthRoles()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase@49f10a67]" name="testResourceAuthRoles" duration-ms="4441" started-at="2014-09-30T19:26:08Z" description="Resource level auth by roles test" finished-at="2014-09-30T19:26:13Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testResourceAuthRoles -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase@49f10a67]" name="destroy" is-config="true" duration-ms="32" started-at="2014-09-30T19:26:13Z" finished-at="2014-09-30T19:26:13Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase@44323274]" name="init" is-config="true" duration-ms="1232" started-at="2014-09-30T19:26:35Z" finished-at="2014-09-30T19:26:37Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testSSOut()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase@44323274]" name="testSSOut" duration-ms="3411" started-at="2014-09-30T19:26:37Z" description="Test Single Sign Out" finished-at="2014-09-30T19:26:40Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testSSOut -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase@44323274]" name="destroy" is-config="true" duration-ms="4" started-at="2014-09-30T19:26:40Z" finished-at="2014-09-30T19:26:40Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase@4a2af8f5]" name="init" is-config="true" duration-ms="13092" started-at="2014-09-30T19:25:35Z" finished-at="2014-09-30T19:25:48Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testTags()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase@4a2af8f5]" name="testTags" duration-ms="2229" started-at="2014-09-30T19:25:48Z" description="Test tags" finished-at="2014-09-30T19:25:51Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testTags -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase@4a2af8f5]" name="destroy" is-config="true" duration-ms="0" started-at="2014-09-30T19:25:51Z" finished-at="2014-09-30T19:25:51Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase@18f63055]" name="init" is-config="true" duration-ms="15811" started-at="2014-09-30T19:25:03Z" finished-at="2014-09-30T19:25:19Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testThrottlingTier()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase@18f63055]" name="testThrottlingTier" duration-ms="16398" started-at="2014-09-30T19:25:19Z" description="Throttling Test Case" finished-at="2014-09-30T19:25:35Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testThrottlingTier -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase@18f63055]" name="destroy" is-config="true" duration-ms="21" started-at="2014-09-30T19:25:35Z" finished-at="2014-09-30T19:25:35Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase@43a4181c]" name="init" is-config="true" duration-ms="16336" started-at="2014-09-30T19:24:42Z" finished-at="2014-09-30T19:24:58Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testResourceAuthRoles()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase@43a4181c]" name="testResourceAuthRoles" duration-ms="4770" started-at="2014-09-30T19:24:58Z" description="Resource level auth by roles test" finished-at="2014-09-30T19:25:03Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testResourceAuthRoles -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase@43a4181c]" name="destroy" is-config="true" duration-ms="87" started-at="2014-09-30T19:25:03Z" finished-at="2014-09-30T19:25:03Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase@4ce63606]" name="init" is-config="true" duration-ms="1213" started-at="2014-09-30T19:26:46Z" finished-at="2014-09-30T19:26:47Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testSelfSignUp()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase@4ce63606]" name="testSelfSignUp" duration-ms="3515" started-at="2014-09-30T19:26:47Z" description="Self sign up test case" finished-at="2014-09-30T19:26:51Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testSelfSignUp -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase@4ce63606]" name="destroy" is-config="true" duration-ms="44" started-at="2014-09-30T19:26:51Z" finished-at="2014-09-30T19:26:51Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase@4b3ec2dd]" name="init" is-config="true" duration-ms="17718" started-at="2014-09-30T19:26:13Z" finished-at="2014-09-30T19:26:31Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testApplicationSubscribe()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase@4b3ec2dd]" name="testApplicationSubscribe" duration-ms="1281" started-at="2014-09-30T19:26:31Z" description="Lifecycle Test Case With Un Publishing the application" finished-at="2014-09-30T19:26:32Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testApplicationSubscribe -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase@4b3ec2dd]" name="destroy" is-config="true" duration-ms="5" started-at="2014-09-30T19:26:32Z" finished-at="2014-09-30T19:26:32Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase -->
+    <class name="org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase">
+      <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase@46f20434]" name="init" is-config="true" duration-ms="4962" started-at="2014-09-30T19:26:40Z" finished-at="2014-09-30T19:26:45Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- init -->
+      <test-method status="PASS" signature="testApplicationDeletion()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase@46f20434]" name="testApplicationDeletion" duration-ms="1278" started-at="2014-09-30T19:26:45Z" description="Test Single Sign Out" finished-at="2014-09-30T19:26:46Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- testApplicationDeletion -->
+      <test-method status="PASS" signature="destroy()[pri:0, instance:org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase@46f20434]" name="destroy" is-config="true" duration-ms="0" started-at="2014-09-30T19:26:46Z" finished-at="2014-09-30T19:26:46Z">
+        <reporter-output>
+        </reporter-output>
+      </test-method> <!-- destroy -->
+    </class> <!-- org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase -->
+  </test> <!-- Test - APPmanager -->
+</suite> <!-- am-features-test-suite -->

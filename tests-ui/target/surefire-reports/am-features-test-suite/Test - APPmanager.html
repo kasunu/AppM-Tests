@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test - APPmanager</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test - APPmanager</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 30 19:21:32 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>318 seconds (318878 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase.testApplicationDeletion()'><b>testApplicationDeletion</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase<br>Test method: Test Single Sign Out</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.AppDeleteTestCase@46f20434</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase.testApplicationSubscribe()'><b>testApplicationSubscribe</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase<br>Test method: Lifecycle Test Case With Un Publishing the application</td>
+<td></td>
+<td>1</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.LifeCycleTestCase@4b3ec2dd</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase.testJWTGeneration()'><b>testJWTGeneration</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase<br>Test method: JWT Generation Test Case</td>
+<td></td>
+<td>63</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.JWTGenerationTestCase@3b8e80a6</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase.testResourceAuthRoles()'><b>testResourceAuthRoles</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase<br>Test method: Resource level auth by roles test</td>
+<td></td>
+<td>4</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthXCMLTestCase@43a4181c</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase.testResourceAuthRoles()'><b>testResourceAuthRoles</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase<br>Test method: Resource level auth by roles test</td>
+<td></td>
+<td>4</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.ResourceAuthRolesTestCase@49f10a67</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase.testSAMLToBackend()'><b>testSAMLToBackend</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase<br>Test method: SAML to backend Test Case</td>
+<td></td>
+<td>62</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.SAMLtoBackendTestCase@57f5b4d1</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase.testSSO()'><b>testSSO</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase<br>Test method: Test Single Sign On</td>
+<td></td>
+<td>2</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.SSOTestCase@56b61c3</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase.testSSOut()'><b>testSSOut</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase<br>Test method: Test Single Sign Out</td>
+<td></td>
+<td>3</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.SSOutTestCase@44323274</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase.testSelfSignUp()'><b>testSelfSignUp</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase<br>Test method: Self sign up test case</td>
+<td></td>
+<td>3</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.SelfSignUpTestCase@4ce63606</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase.testTags()'><b>testTags</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase<br>Test method: Test tags</td>
+<td></td>
+<td>2</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.TagsTestCase@4a2af8f5</td></tr>
+<tr>
+<td title='org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase.testThrottlingTier()'><b>testThrottlingTier</b><br>Test class: org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase<br>Test method: Throttling Test Case</td>
+<td></td>
+<td>16</td>
+<td>org.wso2.carbon.appmanager.integration.ui.TestCases.ThrottlingTestCase@18f63055</td></tr>
+</table><p>
+</body>
+</html>

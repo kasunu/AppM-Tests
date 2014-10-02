@@ -1,0 +1,18 @@
+instructions.configure = \
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/webapps/);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/appmoauth2.war,target:${installFolder}/../../deployment/server/webapps/appmoauth2.war,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/sql/,target:${installFolder}/../../../dbscripts/apimgt,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/config/rxts/,target:${installFolder}/../../resources/rxts,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/config/app-manager.xml/,target:${installFolder}/../../conf/app-manager.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/conf/master-datasources.xml/,target:${installFolder}/../../conf/datasources/master-datasources.xml,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.appmgt.core_1.2.1/repository/database/WSO2AM_DB.h2.db/,target:${installFolder}/../../database/WSO2AM_DB.h2.db,overwrite:true);\
+
+
+
+
+properties.0.name=org.wso2.carbon.p2.category.type
+properties.0.value=server
+properties.1.name=org.eclipse.equinox.p2.type.group
+properties.1.value=false

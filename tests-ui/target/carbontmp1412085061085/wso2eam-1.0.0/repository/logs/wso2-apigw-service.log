@@ -1,0 +1,8 @@
+2014-09-30 19:21:28,771 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2014-09-30 19:21:28,779 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2014-09-30 19:21:28,804 [-] [localhost-startStop-1]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2014-09-30 19:26:46,620 [-] [PassThroughMessageProcessor-29]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /testApp/1.0.0
+2014-09-30 19:26:51,121 [-] [Timer-7]  INFO __SynapseService FaultHandler executing impl: org.apache.synapse.endpoints.HTTPEndpoint
+2014-09-30 19:26:51,122 [-] [Timer-7]  INFO __SynapseService FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+2014-09-30 19:26:51,122 [-] [Timer-7]  WARN __SynapseService Executing fault sequence mediator : fault
+2014-09-30 19:26:51,122 [-] [Timer-7]  INFO __SynapseService STATUS = Executing default 'fault' sequence, ERROR_CODE = 101504, ERROR_MESSAGE = Send timeout

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="am-erver-setup-verifier" duration-ms="6" started-at="2014-09-30T13:51:31Z" finished-at="2014-09-30T13:51:31Z">
+  <groups>
+  </groups>
+  <test name="InitializedAndSetupServer" duration-ms="6" started-at="2014-09-30T13:51:31Z" finished-at="2014-09-30T13:51:31Z">
+  </test> <!-- InitializedAndSetupServer -->
+</suite> <!-- am-erver-setup-verifier -->

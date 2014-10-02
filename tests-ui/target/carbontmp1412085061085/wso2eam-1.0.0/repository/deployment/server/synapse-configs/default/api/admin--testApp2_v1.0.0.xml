@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><api xmlns="http://ws.apache.org/ns/synapse" name="admin--testApp2" context="/testApp2" version="1.0.0" version-type="url" transports="http">
+    <resource methods="POST GET DELETE PUT" url-mapping="/*">
+        <inSequence>
+            <property name="POST_TO_URI" value="true" scope="axis2"/>
+            <send>
+                <endpoint name="admin--testApp2_APIproductionEndpoint_0">
+                    <http uri-template="http://localhost:8080/sample">
+                        <timeout>
+                            <duration>30000</duration>
+                            <responseAction>fault</responseAction>
+                        </timeout>
+                        <suspendOnFailure>
+                            <errorCodes>-1</errorCodes>
+                            <initialDuration>0</initialDuration>
+                            <progressionFactor>1.0</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <errorCodes>-1</errorCodes>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+    </resource>
+    <resource methods="GET" url-mapping="/images">
+        <inSequence>
+            <property name="POST_TO_URI" value="true" scope="axis2"/>
+            <send>
+                <endpoint name="admin--testApp2_APIproductionEndpoint_1">
+                    <http uri-template="http://localhost:8080/sample">
+                        <timeout>
+                            <duration>30000</duration>
+                            <responseAction>fault</responseAction>
+                        </timeout>
+                        <suspendOnFailure>
+                            <errorCodes>-1</errorCodes>
+                            <initialDuration>0</initialDuration>
+                            <progressionFactor>1.0</progressionFactor>
+                            <maximumDuration>0</maximumDuration>
+                        </suspendOnFailure>
+                        <markForSuspension>
+                            <errorCodes>-1</errorCodes>
+                        </markForSuspension>
+                    </http>
+                </endpoint>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+    </resource>
+    <handlers>
+        <handler class="org.wso2.carbon.appmgt.gateway.handlers.proxy.ReverseProxyHandler"/>
+        <handler class="org.wso2.carbon.appmgt.gateway.handlers.security.saml2.SAML2AuthenticationHandler"/>
+        <handler class="org.wso2.carbon.appmgt.gateway.handlers.security.entitlement.EntitlementHandler"/>
+        <handler class="org.wso2.carbon.appmgt.gateway.handlers.throttling.APIThrottleHandler">
+            <property name="id" value="A"/>
+            <property name="policyKey" value="gov:/apimgt/applicationdata/tiers.xml"/>
+        </handler>
+        <handler class="org.wso2.carbon.appmgt.usage.publisher.APPMgtUsageHandler"/>
+    </handlers>
+</api>

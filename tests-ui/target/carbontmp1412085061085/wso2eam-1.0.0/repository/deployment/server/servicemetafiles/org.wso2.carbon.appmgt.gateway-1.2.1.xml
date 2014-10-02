@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.wso2.carbon.appmgt.gateway-1.2.1" successfullyAdded="true">
+    <service name="APIAuthenticationService" serviceDocumentation="APIAuthenticationService" exposedAllTransports="false" serviceDeployedTime="1412085086130" successfullyAdded="true">
+        <operation name="invalidateKey">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="invalidateResourceCache">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="invalidateKeys">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="invalidateOAuthKeys">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="APIAuthenticationServiceSoap11Binding">
+                <operation name="invalidateKey"/>
+                <operation name="invalidateResourceCache"/>
+                <operation name="invalidateKeys"/>
+                <operation name="invalidateOAuthKeys"/>
+            </binding>
+            <binding name="APIAuthenticationServiceSoap12Binding">
+                <operation name="invalidateKey"/>
+                <operation name="invalidateResourceCache"/>
+                <operation name="invalidateKeys"/>
+                <operation name="invalidateOAuthKeys"/>
+            </binding>
+            <binding name="APIAuthenticationServiceHttpBinding">
+                <operation name="invalidateKey"/>
+                <operation name="invalidateResourceCache"/>
+                <operation name="invalidateKeys"/>
+                <operation name="invalidateOAuthKeys"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="adminService" locked="true">true</parameter>
+        <parameter name="DoAuthentication" locked="true">true</parameter>
+        <parameter name="ServiceClass">org.wso2.carbon.appmgt.gateway.handlers.security.service.APIAuthenticationService</parameter>
+        <parameter name="AuthorizationAction" locked="true">/permission/admin/login</parameter>
+        <parameter name="hiddenService" locked="true">true</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+    </service>
+    <service name="AppManagerOAuth2Service" serviceDocumentation="AppManagerOAuth2Service" exposedAllTransports="false" serviceDeployedTime="1412085086162" successfullyAdded="true">
+        <operation name="issueAccessToken">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getSamlAssetionString">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="doPost">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getCookieValue">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getAccessToken">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getResponsePayload">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="AppManagerOAuth2ServiceSoap12Binding">
+                <operation name="issueAccessToken"/>
+                <operation name="getSamlAssetionString"/>
+                <operation name="doPost"/>
+                <operation name="getCookieValue"/>
+                <operation name="getAccessToken"/>
+                <operation name="getResponsePayload"/>
+            </binding>
+            <binding name="AppManagerOAuth2ServiceSoap11Binding">
+                <operation name="issueAccessToken"/>
+                <operation name="getSamlAssetionString"/>
+                <operation name="doPost"/>
+                <operation name="getCookieValue"/>
+                <operation name="getAccessToken"/>
+                <operation name="getResponsePayload"/>
+            </binding>
+            <binding name="AppManagerOAuth2ServiceHttpBinding">
+                <operation name="issueAccessToken"/>
+                <operation name="getSamlAssetionString"/>
+                <operation name="doPost"/>
+                <operation name="getCookieValue"/>
+                <operation name="getAccessToken"/>
+                <operation name="getResponsePayload"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <parameter name="ServiceClass">org.wso2.carbon.appmgt.gateway.service.AppManagerOAuth2Service</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

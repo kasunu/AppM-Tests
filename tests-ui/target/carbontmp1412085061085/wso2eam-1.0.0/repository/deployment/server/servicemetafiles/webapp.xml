@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="webapp" successfullyAdded="true">
+    <service name="webapp" exposedAllTransports="false" serviceDeployedTime="1412085089312" successfullyAdded="true">
+        <operation name="getwebappDependencies">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/list</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getwebapp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/list</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getwebappArtifactIDs">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/list</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updatewebapp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/add</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="deletewebapp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/add</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addwebapp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/webapp/add</parameter>
+            <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="webappSoap11Binding">
+                <operation name="getwebappDependencies"/>
+                <operation name="getwebapp"/>
+                <operation name="getwebappArtifactIDs"/>
+                <operation name="updatewebapp"/>
+                <operation name="deletewebapp"/>
+                <operation name="addwebapp"/>
+            </binding>
+            <binding name="webappHttpBinding">
+                <operation name="getwebappDependencies"/>
+                <operation name="getwebapp"/>
+                <operation name="getwebappArtifactIDs"/>
+                <operation name="updatewebapp"/>
+                <operation name="deletewebapp"/>
+                <operation name="addwebapp"/>
+            </binding>
+            <binding name="webappSoap12Binding">
+                <operation name="getwebappDependencies"/>
+                <operation name="getwebapp"/>
+                <operation name="getwebappArtifactIDs"/>
+                <operation name="updatewebapp"/>
+                <operation name="deletewebapp"/>
+                <operation name="addwebapp"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="wso2bammessagetracerservice" version="4.2.3" type="engagedModules"/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <module name="pagination" version="4.2.0" type="engagedModules"/>
+        <parameter name="enableMTOM">true</parameter>
+        <parameter name="adminService">true</parameter>
+        <parameter name="AuthorizationAction">/permission/admin/login</parameter>
+        <parameter name="hiddenService">true</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>
